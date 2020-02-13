@@ -8,5 +8,5 @@ class User < ApplicationRecord
   has_many :bookings, dependent: :destroy
   has_many :skills
 
-  validates :name, presence: true, null: false
+  # validates :name, presence: true, null: false
 end
