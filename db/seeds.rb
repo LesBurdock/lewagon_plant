@@ -18,7 +18,8 @@ les = User.create!(
 serg = User.create!(
   password: "sergFun",
   email: "serg@fun.com",
-  name: 'Serge'
+  name:"serg",
+  description: 'I am passionate about plants. I make it my mission to provide tips and tricks about how to take care of any plants.'
   )
 planty = Plant.create!(
   name: "My Wonderful Cactus",
